@@ -1,3 +1,4 @@
+# Existing .gitignore content
 # Ignore all files starting with a dot, except for .gitignore
 .*
 !.gitignore
@@ -8,3 +9,7 @@
 # Ignore the .git directory and .venv directory
 .git/
 .venv/
+
+# Ignore Python cache files and directories
+__pycache__/
+*.pyc
