@@ -1,0 +1,115 @@
+File: inflation_rates_usa_cleaned.csv
+indicator_id: TEXT
+indicator_value: TEXT
+country_id: TEXT
+country_value: TEXT
+countryiso3code: TEXT
+timestamp: TEXT
+value: DOUBLE PRECISION
+unit: DOUBLE PRECISION
+obs_status: DOUBLE PRECISION
+decimal: BIGINT
+
+File: trade_balance_usa_cleaned.csv
+timestamp: TEXT
+value: BIGINT
+indicator_value: TEXT
+country_value: TEXT
+
+File: world_bank_economic_indicators_nl.csv
+timestamp: TEXT
+GDP growth rate: DOUBLE PRECISION
+Inflation rate: DOUBLE PRECISION
+Unemployment rate: DOUBLE PRECISION
+Trade balance: DOUBLE PRECISION
+Foreign direct investment: DOUBLE PRECISION
+Internet penetration: DOUBLE PRECISION
+
+File: tariffs_usa_cleaned.csv
+timestamp: TEXT
+countryiso3code: TEXT
+value: DOUBLE PRECISION
+unit: DOUBLE PRECISION
+obs_status: DOUBLE PRECISION
+decimal: BIGINT
+indicator_value: TEXT
+country_value: TEXT
+
+File: central_bank_policy_rates_usa_cleaned.csv
+timestamp: TEXT
+Central Bank Policy Rate (%): DOUBLE PRECISION
+
+File: internet_penetration_usa_cleaned.csv
+timestamp: TEXT
+Individuals using the Internet (% of population): DOUBLE PRECISION
+
+File: unemployment_rates_usa_cleaned.csv
+timestamp: TEXT
+value: DOUBLE PRECISION
+
+File: remittances_usa_cleaned.csv
+Indicator: TEXT
+Country: TEXT
+timestamp: TEXT
+Personal Remittances, Received (% of GDP): DOUBLE PRECISION
+
+File: gdp_growth_rates_usa_cleaned.csv
+timestamp: TEXT
+GDP Growth (annual %): DOUBLE PRECISION
+
+File: stock_market_indices_usa_cleaned.csv
+timestamp: TEXT
+countryiso3code: TEXT
+value: DOUBLE PRECISION
+unit: DOUBLE PRECISION
+obs_status: DOUBLE PRECISION
+decimal: BIGINT
+indicator_value: TEXT
+country_value: TEXT
+
+File: mobile_cellular_subscriptions_usa_cleaned.csv
+Indicator: TEXT
+Country: TEXT
+timestamp: TEXT
+Mobile Cellular Subscriptions (per 100 people): DOUBLE PRECISION
+
+File: total_public_debt_gdp_usa_cleaned.csv
+timestamp: TEXT
+countryiso3code: TEXT
+value: DOUBLE PRECISION
+unit: DOUBLE PRECISION
+obs_status: DOUBLE PRECISION
+decimal: BIGINT
+indicator_value: TEXT
+country_value: TEXT
+
+File: world_bank_economic_indicators.csv
+timestamp: TEXT
+GDP growth rate: DOUBLE PRECISION
+Inflation rate: DOUBLE PRECISION
+Unemployment rate: DOUBLE PRECISION
+Trade balance: DOUBLE PRECISION
+Foreign direct investment: DOUBLE PRECISION
+Internet penetration: DOUBLE PRECISION
+
+File: trade_in_services_usa_cleaned.csv
+timestamp: TEXT
+value: DOUBLE PRECISION
+indicator_value: TEXT
+country_value: TEXT
+
+File: world_bank_economic_indicators_usa_preprocessed.csv
+timestamp: TEXT
+value: DOUBLE PRECISION
+
+File: domestic_credit_private_sector_usa_cleaned.csv
+timestamp: TEXT
+Domestic Credit to Private Sector (% of GDP): DOUBLE PRECISION
+
+File: foreign_direct_investment_usa_cleaned.csv
+indicator: TEXT
+country: TEXT
+countryiso3code: TEXT
+timestamp: TEXT
+FDI_net_inflows_BOP_current_USD: BIGINT
+
