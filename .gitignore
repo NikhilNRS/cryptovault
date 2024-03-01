@@ -1,0 +1,10 @@
+# Ignore all files starting with a dot, except for .gitignore
+.*
+!.gitignore
+
+# Ignore CSV files
+*.csv
+
+# Ignore the .git directory and .venv directory
+.git/
+.venv/
